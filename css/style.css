@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
+   
   }
   
   header {
@@ -8,12 +9,26 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: black;
+    box-shadow: 5px 5px 15px 5px #ffffff;
+  }
+
+  header div{
+    width: 100%;
+    
+  }
+
+  h1{
+    color: white;
   }
   
   nav {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: black;
+    box-shadow: 5px 5px 15px 5px #ffffff;
+   
   }
   
   nav ul {
@@ -24,12 +39,30 @@ body {
   nav li {
     margin-right: 20px;
   }
+
+  nav li a {
+    color: rgb(250, 250, 250);
+    font-size: 28px;
+    text-decoration: none;
+  }
+
+  nav li a:hover{
+    color: aqua;
+  }
+
+  .div{
+      width: 100%;
+      height: 100vh;
+      background-image: url(../img/pexels-shahnewaj-mahmood-1033202.jpg);
+      background-size: cover;
+  }
   
   main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+  
   }
   
   section {
@@ -49,7 +82,7 @@ body {
     background-color: lightblue;    
   }
   .membre4 {
-    background-color: lightgoldenrodyellow;    
+    background-color: chartreuse;    
   }
   .membre5 {
     background-color: lightseagreen;    
